@@ -1,7 +1,7 @@
 package com.ddu.ch09.part01;
 
 
-public class MAINClass {
+public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub	
@@ -11,7 +11,7 @@ public class MAINClass {
 		b.field1 = 10;
 		b.method1();
 		
-		A.C c = new A.C();//정적멤버 -> a, 불피료
+		A.C c = new A.C();//정적멤버 -> a, 불필요
 		
 		c.field1 = 100;
 		c.method1();
@@ -19,6 +19,13 @@ public class MAINClass {
 		A.C.method2();// static 메소드 접근
 		
 		a.methodLocal(); // 로컬 클래스 객체 생성
+		
+		System.out.println("==========================");
+		
+		Button btn  = new Button();
+		
+		btn.setListner(new CallListener());
+		btn.touch();
 		
 	}
 
