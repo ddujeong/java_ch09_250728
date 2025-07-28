@@ -9,7 +9,7 @@ public class A {
 	// 인스턴스 멤버 클래스 B
 	public class B {
 		
-		B() {
+		public B() {
 		System.out.println("B 객체가 생성됨");
 		}
 		int field1;
@@ -18,11 +18,11 @@ public class A {
 		}
 }
 	public static class C{
-		C() {
-			System.out.println("c 객체가 생섬됨");
+		public C() {
+			System.out.println("C 객체가 생섬됨");
 		}
 		int field1;
-		static int filed2;
+		static int field2;
 		void method1() {
 			
 		}

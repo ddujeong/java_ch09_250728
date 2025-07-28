@@ -15,7 +15,7 @@ public class MainClass {
 		
 		c.field1 = 100;
 		c.method1();
-		A.C.filed2 = 50; // static 필드 접근
+		A.C.field2 = 50; // static 필드 접근
 		A.C.method2();// static 메소드 접근
 		
 		a.methodLocal(); // 로컬 클래스 객체 생성
